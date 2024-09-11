@@ -1,2 +1,0 @@
-function fixedNav(){const header=document.querySelector('.header');const breakpoint=1;if(window.scrollY>=breakpoint){header.classList.add('header__fixed');}else{header.classList.remove('header__fixed');}}
-window.addEventListener('scroll',fixedNav);

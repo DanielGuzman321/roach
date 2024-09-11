@@ -6,16 +6,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WETCAT</title>
-  <link rel="icon" type="image/png" href="/Images/a9.png">
+  <title>CockRoach On Sol</title>
+  <link rel="icon" type="image/png" href="/Images/86ca801e-cee5-471a-ab51-6167388330eb.jpg">
   <meta name="robots" content="max-image-preview:large" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" id="bodhi-svgs-attachment-css"
-    href="/wetcat/wp-content/plugins/svg-support/css/svgs-attachment8f99.css?ver=6.5" media="all" />
+    href="/medias/wp-content/plugins/svg-support/css/svgs-attachment8f99.css?ver=6.5" media="all" />
   <link rel="https://api.w.org/" href="index52f0.json?rest_route=/" />
-  <link rel="alternate" type="application/json" href="/wetcat/index2aaf.json?rest_route=/wp/v2/pages/12" />
-  <meta name="generator" content="WordPress 6.5" />
+  <link rel="alternate" type="application/json" href="/index2aaf.json?rest_route=/wp/v2/pages/12" />
   <link rel="canonical" href="index.html" />
   <link rel="shortlink" href="index.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88936148-1"
     type="51ed1d3b704306eb949b1e62-text/javascript"></script>
@@ -182,7 +190,7 @@
     }
   </style>
 
-  <link rel="stylesheet" type="text/css" href="/wetcat/wp-content/themes/wetcat/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/medias/wp-content/themes/work/assets/css/style.css" />
   <link rel="stylesheet" href="../unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
 </head>
 
@@ -192,12 +200,12 @@
       <div class="container">
         <div class="header__navbar flex w-full items-center justify-between">
           <div class="header__logo z-110 flex items-center">
-            <a href="#" class="header__logo-link"><img src="/Images/Sin título-1.png"
-                class="w-[166px] lg:w-[200px]" alt="Logo" /></a>
+            <a href="#" class="header__logo-link"><img src="/Images/logo.png" class="w-[166px] lg:w-[200px]"
+                alt="Logo" /></a>
           </div>
           <div class="header__buttons flex items-center">
-            <a href="https://raydium.io/swap/?inputCurrency=sol&amp;outputCurrency=CWeqphNjDFXqbipc6BKZgX5bWLCjo3ExbPwrnB2XsucA&amp;fixed=in"
-              class="header__button button-cta-s">Buy $WETCAT</a>
+            <a href="https://jup.ag/swap/SOL-DJNCK2Z5ZeHiDjNgmDE35ccV17U5DH9gDejXzMNBD4pd"
+              class="header__button button-cta-s">Buy ROACH</a>
           </div>
         </div>
       </div>
@@ -226,20 +234,70 @@
               data-aos-delay="50">
               <h1 class="hero__title heading-h2 md:heading-h1 lg:heading-hero">
                 Welcome <br />
-                to WETCAT </h1>
+                to $ROACH?</h1>
               <div class="hero__texts mt-md flex flex-col gap-md lg:mt-lg">
-                <p class="hero__text">Seriously wet cat, probably the wettest cat you’ve ever seen $WETCAT Solana <br>
+                <p class="hero__text">just here for a good time and a bite to eat.<br>
                   <br />
                 </p>
               </div>
             </div>
             <div class="hero__image relative w-[80%] lg:w-full lg:max-w-[500px]" data-aos="fade-up" data-aos-delay="0">
-              <img src="/Images/a9.png" class="relative z-1" alt />
+              <img src="/Images/86ca801e-cee5-471a-ab51-6167388330eb.jpg" class="relative z-1" alt />
             </div>
           </div>
         </div>
       </section>
-      
+
+      <section class="community relative py-lg md:py-[60px] lg:py-[100px]" id="community">
+        <div class="container">
+          <div class="community__heading mx-auto mb-xl max-w-[640px] text-center lg:mb-56px">
+            <h3 class="community__title heading-h3 lg:heading-h2"> Radio</h3>
+          </div>
+          <div class="community__social flex items-center justify-center gap-md lg:gap-xxl">
+            <button onclick="previousSong()"
+              class="community__social-link social-shadow flex h-[82px] w-[82px] items-center justify-center rounded-full border-[2px] border-black bg-yellow transition-all hover:translate-y-[3px] hover:bg-pink hover:shadow-none lg:h-[134px] lg:w-[134px] lg:border-[3px]">
+              <img src="/Images/rewind_151847.png" class="w-[40%]" alt="Backward Button" />
+            </button>
+
+            <button onclick="toggleAudio()"
+              class="community__social-link social-shadow flex h-[82px] w-[82px] items-center justify-center rounded-full border-[2px] border-black bg-yellow transition-all hover:translate-y-[3px] hover:bg-pink hover:shadow-none lg:h-[134px] lg:w-[134px] lg:border-[3px]">
+              <img src="/Images/play.png" class="w-[40%]" alt="Play Button" />
+            </button>
+
+            <button onclick="nextSong()"
+              class="community__social-link social-shadow flex h-[82px] w-[82px] items-center justify-center rounded-full border-[2px] border-black bg-yellow transition-all hover:translate-y-[3px] hover:bg-pink hover:shadow-none lg:h-[134px] lg:w-[134px] lg:border-[3px]">
+              <img src="/Images/delant.png" class="w-[40%]" alt="Forward Button" />
+            </button>
+          </div>
+        </div>
+        <audio id="audioPlayer" src="/audio/1.mp3"></audio>
+        <script>
+          var audioPlayer = document.getElementById("audioPlayer");
+          var currentSongIndex = 0;
+          var songs = ["/audio/1.mp3", "/audio/2.mp3", "/audio/3.mp3"];
+
+          function toggleAudio() {
+            if (audioPlayer.paused) {
+              audioPlayer.play();
+            } else {
+              audioPlayer.pause();
+            }
+          }
+
+          function nextSong() {
+            currentSongIndex = (currentSongIndex + 1) % songs.length;
+            audioPlayer.src = songs[currentSongIndex];
+            audioPlayer.play();
+          }
+
+          function previousSong() {
+            currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+            audioPlayer.src = songs[currentSongIndex];
+            audioPlayer.play();
+          }
+        </script>
+      </section>
+
       <section class="tokenomics relative py-lg md:py-[60px] lg:py-[100px]" id="tokenomics">
         <div
           class="tokenomics__bg pointer-events-none absolute left-1/2 top-[37%] z-0 hidden -translate-x-[50%] select-none lg:block">
@@ -260,7 +318,7 @@
           <div class="tokenomics__heading relative z-1 mx-auto mb-xl max-w-[523px] text-center lg:mb-56px">
             <h3 class="tokenomics__title heading-h3 lg:heading-h2">Tokenomics</h3>
             <p class="tokenomics__description mt-md">An Overview of token distribution, and economic policies ensuring
-              token's sustainable growth</p>
+              token's sustainable growth. </p>
           </div>
           <div
             class="tokenomics__wrapper relative z-1 mx-auto flex max-w-[1000px] flex-col-reverse items-center gap-64px lg:flex-row lg:items-start lg:justify-between">
@@ -268,56 +326,123 @@
               <div class="tokenomics__items flex max-w-[285px] flex-col items-center gap-md lg:items-start">
                 <div class="tokenomics__item">
                   <p class="tokenomics__item-caption">Token Symbol:</p>
-                  <p class="tokenomics__item-title heading-h4">WETCAT</p>
+                  <p class="tokenomics__item-title heading-h4">ROACH</p>
                 </div>
                 <div class="tokenomics__item">
                   <p class="tokenomics__item-caption">Total Supply</p>
                   <p class="tokenomics__item-title heading-h4">
-                    239,844,761,989.70</p>
+                    949,951,347.61</p>
                 </div>
                 <div class="tokenomics__item">
                   <p class="tokenomics__item-caption">Tax</p>
-                  <p class="tokenomics__item-title heading-h4">0% Fee</p>
+                  <p class="tokenomics__item-title heading-h4">0/0 Tax Fee</p>
                 </div>
               </div>
               <div
                 class="tokenomics__buttons flex items-center justify-center gap-sm mt-xl lg:mt-64px lg:justify-start">
-                <a href="https://www.dextools.io/app/en/solana/pair-explorer/86gadmJEtzULDwvF952VtjqfQGpbwmdiUJGuHsu11Vtx?t=1715215498433"
-                  class="button-cta-m">Dextool </a>
-                <a href="https://dexscreener.com/solana/86gadmjetzuldwvf952vtjqfqgpbwmdiujguhsu11vtx"
+                <a href="https://dexscreener.com/solana/aatwe7bgsikcwnhbh52mc8zcpkrjwyy5jdruraxyk3v4"
                   class="button-cta-m pink">Dexscreener</a>
+                  <a href="https://jup.ag/swap/SOL-DJNCK2Z5ZeHiDjNgmDE35ccV17U5DH9gDejXzMNBD4pd"
+                  class="button-cta-m pink">Jupiter</a>
               </div>
             </div>
             <div class="tokenomics__image relative w-[70%] lg:w-full lg:max-w-[470px]" data-aos="fade-up"
               data-aos-delay="0">
-              <img src="/Images/a17.png" class="relative z-1" alt />
+              <img src="/Images/photo_5098165900665793913_y.jpg" class="relative z-1" alt />
             </div>
           </div>
         </div>
       </section>
-      
+
+      <div class="tokenomics__heading relative z-1 mx-auto mb-xl max-w-[523px] text-center lg:mb-56px">
+        <h3 class="tokenomics__title heading-h3 lg:heading-h2">Gallery</h3>
+        <p class="tokenomics__description mt-md"> </p>
+      </div>
+      <section class="gallery">
+        <div class="image-wrapper">
+          <img src="/Images/photo_5098165900665793913_y.jpg" alt="Image 1">
+        </div>
+        <div class="image-wrapper">
+          <img src="/Images/photo_5120735683223334465_x.jpg" alt="Image 3">
+        </div>
+        <div class="image-wrapper">
+          <img src="/Images/photo_5098165900665793917_y.jpg" alt="Image 3">
+        </div>
+        <!-- Agrega más imágenes según sea necesario -->
+      </section>
+
+      <style>
+        /* styles.css */
+        .gallery {
+          max-width: 900px;
+          margin: 0 auto;
+          overflow: hidden;
+        }
+
+        .section-heading {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .image-wrapper {
+          width: calc(33.33% - 20px);
+          box-sizing: border-box;
+          padding: 10px;
+          float: left;
+          margin: 10px;
+          /* Añade un margen entre las imágenes */
+        }
+
+
+        .image-wrapper img {
+          width: 100%;
+          display: block;
+          max-width: 100%;
+        }
+
+        .image-wrapper {
+          background-color: #ffffff;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        @media screen and (max-width: 600px) {
+          .image-wrapper {
+            width: calc(50% - 20px);
+          }
+        }
+
+        @media screen and (max-width: 400px) {
+          .image-wrapper {
+            width: calc(100% - 20px);
+          }
+        }
+      </style>
+
       <section class="community relative py-lg md:py-[60px] lg:py-[100px]" id="community">
         <div class="container">
           <div class="community__heading mx-auto mb-xl max-w-[640px] text-center lg:mb-56px">
             <h3 class="community__title heading-h3 lg:heading-h2">Join Our Community</h3>
           </div>
           <div class="community__social flex items-center justify-center gap-md lg:gap-xxl">
-            <a href="https://t.me/WETCATPORTAL" target="_blank"
+            <a href="https://x.com/RoachCTO?t=xwIGnsF4lle8uVY6z0d5sQ&s=09" target="_blank"
               class="community__social-link social-shadow flex h-[82px] w-[82px] items-center justify-center rounded-full border-[2px] border-black bg-yellow transition-all hover:translate-y-[3px] hover:bg-pink hover:shadow-none lg:h-[134px] lg:w-[134px] lg:border-[3px]">
-              <img src="/Images/pngwing.com.png" class="w-[40%]" alt />
+              <img src="/Images/pngwing.com (1).png" class="w-[40%]" alt="Twitter Button" />
             </a>
-            <a href="https://twitter.com/wetcatxyz" target="_blank"
+            <a href="https://t.me/+kaoZflxjxRxjZTE0" target="_blank"
               class="community__social-link social-shadow flex h-[82px] w-[82px] items-center justify-center rounded-full border-[2px] border-black bg-yellow transition-all hover:translate-y-[3px] hover:bg-pink hover:shadow-none lg:h-[134px] lg:w-[134px] lg:border-[3px]">
-              <img src="/Images/pngwing.com (1).png" class="w-[40%]" alt />
+              <img src="/Images/pngwing.com.png" class="w-[40%]" alt="Telegram Button" />
             </a>
           </div>
         </div>
       </section>
     </main>
   </div>
-  <script src="/wetcat/wp-content/themes/wetcat/js/navigation8a54.js?ver=1.0.0"
+
+  <script src="/medias/wp-content/themes/work/js/navigation8a54.js?ver=1.0.0"
     type="51ed1d3b704306eb949b1e62-text/javascript"></script>
-  <script src="/wetcat/wp-content/themes/wetcat/assets/js/scripts.js" type="51ed1d3b704306eb949b1e62-text/javascript"></script>
+  <script src="/medias/wp-content/themes/work/assets/js/scripts.js"
+    type="51ed1d3b704306eb949b1e62-text/javascript"></script>
   <script src="../unpkg.com/aos%403.0.0-beta.6/dist/aos.js" type="51ed1d3b704306eb949b1e62-text/javascript"></script>
   <script type="51ed1d3b704306eb949b1e62-text/javascript">
   AOS.init({
@@ -325,7 +450,7 @@
     duration: 800, // values from 0 to 3000, with step 50ms
   });
 </script>
-  <script src="/wetcat/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+  <script src="/medias/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
     data-cf-settings="51ed1d3b704306eb949b1e62-|49" defer></script>
 </body>
 
